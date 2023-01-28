@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>Personal WebSite</title>
+  </head>
+  <body>
+<div class="box">
+	<div class="bo">
+		
+
+  <img src="itt.png" alt="" class="box-img">
+  <h1>
+MOUSAM GOGOI</h1>
+<h5>
+Unprofessional UI/UX web designer</h5>
+<p>
+	এই ৱেবছাইটটো html,css ব্যৱহাৰ কৰি বিনামূলীয়া সময়ত সৃষ্টি কৰা হৈছে,এই ৱেবছাইটৰ বুটামবোৰ কাম নকৰে তাৰ কাম এতিয়াও চলি আছে link will expire soon!!
+	
+</p>
+
+<div class="van">
+<ul>
+	<li><a href="#" class="active">About me</a></li>
+	<li><a href="#" class="active">Projects</a></li>
+</ul>
+</div>
+
+</div>
+<div class="p">
+	click here <br>
+	Rotate your phone!!
+	<div>
+</div>
+</body>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".box"), {
+		max: 25,
+		speed: 400
+	});
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+
+
+<script type="text/javascript">
+	const cl = location.href;
+	const mi = document.querySelectorAll('a');
+	const ml = mi.length 
+	for(let i=0;i<ml;i++){
+		if(mi[i].href===cl){
+			mi[i].className="active"
+		}
+	}
+	
+</script>
+</html>
+
