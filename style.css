@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0rem;
+  margin: 0rem;
+  font-family: "Poppins", sans-serif;
+}
+html{
+	font-size: 1px;
+}
+body {
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  padding-bottom: 100rem;
+}
+.main-x {
+	display: flex;
+}
+.container {
+  max-width: 100rem;
+  
+}
+.nav {
+  height: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255,255,255,0.25);
+  border-bottom: 1rem solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+.nav .container {
+  display: flex;
+  height: 100%;
+  
+}
+
+.nav .container .logo {
+  width: 100rem;
+  height: 75rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -33rem 50rem 0 10rem;
+  box-sizing: border-box;
+}
+footer nav{
+	margin-top: 14% 0 0 100px;
+}
+footer nav ul{
+	list-style: none;
+	display: flex;
+}
+footer nav ul li {
+	margin-right: 30px;
+}
+footer nav ul li:lastchild{
+	margin-right: 0px;
+}
+
+footer nav ul li a i{
+	font-size: 30px;
+	color: rgba(38,38,38,1);
+	
+} 
+
+.van ul{
+	position: relative;
+	display: flex;
+	margin: 0 0 10px 63px;
+	text-align: center;
+	margin-left: 30px;
+}
+.van ul li{
+	position: relative;
+	list-style: none;
+	margin: 20px;
+}
+.van ul li a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #dadada;
+	padding: 8px 15px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+}
+.van ul li a.active{
+	background: #00b5de;
+	color: #fff;
+}
+
+ul li a .bk{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin: -2px 0 0 6px;
+	object-fit: cover;
+}
+
+.main-body {
+  margin-top: 40rem;
+}
+
+.main-nav {
+  width: 2rem;
+}
+.user-day {
+  width: 358rem;
+  height: 118rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border: 1rem solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.day img {
+  height: 56rem;
+  width: 56rem;
+  border-radius: 56rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80rem;
+}
+
+.day p {
+  font-size: 10rem;
+  color: rgb(51, 51, 51);
+  margin-top: 10rem;
+  letter-spacing: 0.01em;
+  max-width: 74rem;
+}
+
+
+.single-user {
+  width: 320rem;
+  margin: 40rem 0 10rem 17rem;
+  border: 1rem solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.single-user .post-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60rem;
+  align-items: center;
+}
+.single-user .post-nav img {
+  height: 32rem;
+  width: 32rem;
+  border-radius: 32rem;
+  margin-left: 15rem;
+}
+
+.dotdot {
+    display: flex;
+    margin-right: 15rem;
+    cursor: pointer;
+    height: 20rem;
+    align-items: center;
+}
+.post-nav .user-pro{
+    display: flex;
+    align-items: center;
+}
+.post-nav .user-pro p{
+    margin-left: 10rem;
+    font-size: 14rem;
+    text-transform : lowercase;
+}
+
+.post-picture{
+    width: 100%;
+}
+
+.post-picture img{
+    width: 100%;
+    height: 300rem;
+    object-fit: cover;
+}
+
+
+.right-side {
+    margin-right: 15rem;
+}
+.liked-by {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+.liked-by img{
+    height : 20rem;
+    width : 20rem;
+    border-radius: 20rem;
+	
+}
+
+.liked-by p{
+    margin-left: 10rem;
+    font-size: 14rem;
+}
+
+.post-text{
+    font-size: 14rem ;
+    margin-top: 10rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.post-text{
+    font-weight: 300;
+}
+
+.hours-ago{
+    color: rgba(128, 128, 128, 0.602);
+    margin-left: 15rem;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    font-size: 12rem;
+    padding-bottom: 20rem;
+}
+
+.main-x{
+    display: flex;
+    
+}
+
+.main-nav{
+    width: 320rem;
+    overflow: hidden;
+}
+
+.user-pro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20rem;
+    align-items: center;
+}
+
